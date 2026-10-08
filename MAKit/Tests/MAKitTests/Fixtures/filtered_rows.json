@@ -1,0 +1,129 @@
+{
+ "message_id": "x",
+ "result": [
+  {
+   "item_id": "10000002_popular",
+   "provider": "tidal--test",
+   "name": "Popular playlists",
+   "media_type": "folder",
+   "items": [
+    {
+     "item_id": "popular1",
+     "provider": "tidal--test",
+     "name": "Popular playlist with our cover",
+     "sort_name": "popular playlist with our cover",
+     "uri": "tidal--test://playlist/popular1",
+     "media_type": "playlist",
+     "owner": "tidal",
+     "metadata": {
+      "images": [
+       {
+        "type": "thumb",
+        "path": "sbcover_00000000000000f1_00000000000000f1.jpg",
+        "provider": "spotify_bridge",
+        "remotely_accessible": false,
+        "proxy_id": "f0000000000000000000000000000001"
+       }
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "item_id": "10000002_custom_mixes",
+   "provider": "tidal--test",
+   "name": "Custom mixes",
+   "media_type": "folder",
+   "items": [
+    {
+     "item_id": "mix1",
+     "provider": "tidal--test",
+     "name": "TIDAL mix with our cover",
+     "sort_name": "tidal mix with our cover",
+     "uri": "tidal--test://playlist/mix1",
+     "media_type": "playlist",
+     "owner": "tidal",
+     "metadata": {
+      "images": [
+       {
+        "type": "thumb",
+        "path": "sbcover_00000000000000f2_00000000000000f2.jpg",
+        "provider": "spotify_bridge",
+        "remotely_accessible": false,
+        "proxy_id": "f0000000000000000000000000000002"
+       }
+      ]
+     }
+    },
+    {
+     "item_id": "mix2",
+     "provider": "tidal--test",
+     "name": "TIDAL mix with its own cover",
+     "sort_name": "tidal mix with its own cover",
+     "uri": "tidal--test://playlist/mix2",
+     "media_type": "playlist",
+     "owner": "tidal",
+     "metadata": {
+      "images": [
+       {
+        "type": "thumb",
+        "path": "https://img.example/cover/f3.jpg",
+        "provider": "tidal--test",
+        "remotely_accessible": false,
+        "proxy_id": "f0000000000000000000000000000003"
+       }
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "item_id": "soundcloud--test_soundcloud:selections:made-for-you",
+   "provider": "soundcloud--test",
+   "name": "Made for you",
+   "media_type": "folder",
+   "items": [
+    {
+     "item_id": "weekly1",
+     "provider": "soundcloud",
+     "name": "SoundCloud playlist with our cover",
+     "sort_name": "soundcloud playlist with our cover",
+     "uri": "soundcloud://playlist/weekly1",
+     "media_type": "playlist",
+     "owner": "soundcloud",
+     "metadata": {
+      "images": [
+       {
+        "type": "thumb",
+        "path": "sbcover_00000000000000f4_00000000000000f4.jpg",
+        "provider": "spotify_bridge",
+        "remotely_accessible": false,
+        "proxy_id": "f0000000000000000000000000000004"
+       }
+      ]
+     }
+    },
+    {
+     "item_id": "weekly2",
+     "provider": "soundcloud",
+     "name": "SoundCloud playlist with its own cover",
+     "sort_name": "soundcloud playlist with its own cover",
+     "uri": "soundcloud://playlist/weekly2",
+     "media_type": "playlist",
+     "owner": "soundcloud",
+     "metadata": {
+      "images": [
+       {
+        "type": "thumb",
+        "path": "https://img.example/cover/f5.jpg",
+        "provider": "soundcloud--test",
+        "remotely_accessible": false,
+        "proxy_id": "f0000000000000000000000000000005"
+       }
+      ]
+     }
+    }
+   ]
+  }
+ ]
+}

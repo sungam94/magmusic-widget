@@ -1,0 +1,10 @@
+// Build settings for every build of MagMusic. Your own values go in the untracked Local.xcconfig next to this
+// file, which scripts/install.sh writes:
+//   DEVELOPMENT_TEAM = <your Apple ID team>
+//   BUNDLE_ID_PREFIX = <a reverse-DNS prefix of yours, for example org.example>
+// The app is <prefix>.magmusic, the widget <prefix>.magmusic.widget, and the keychain group the two share
+// <prefix>.magmusic.shared. Changing the prefix of an installed app makes it a new app: the token and the
+// widget have to be set up again.
+BUNDLE_ID_PREFIX = local.magmusic
+
+#include? "Local.xcconfig"
